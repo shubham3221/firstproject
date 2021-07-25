@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/downloadmanager"
+        android:title="message"
+        app:actionLayout="@layout/download_layout"
+        android:enabled="true"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menusms2"
+        app:actionLayout="@layout/badge_layout"
+        android:title="message"
+        android:enabled="true"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menusetting"
+        android:enabled="true"
+        android:title="settings"
+        android:icon="@drawable/gear2"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorTextDark"
+    >
+
+    <TextView
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:drawablePadding="20dp"
+        android:gravity="center|start"
+        android:text="Grid"
+        app:drawableStartCompat="@drawable/ic_baseline_view_grid_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:drawableTint="@color/white_hint" />
+    <View
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:id="@+id/view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/one"
+        android:layout_height="1dp"
+        android:layout_marginStart="60dp"
+        android:background="#424242"/>
+
+    <TextView
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:drawablePadding="20dp"
+        android:gravity="center|start"
+        android:text="Compact"
+        app:drawableStartCompat="@drawable/ic_baseline_format_list_compact_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view"
+        app:drawableTint="@color/white_hint" />
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/view2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/two"
+        android:layout_height="1dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="20dp"
+        android:background="#424242"/>
+    <TextView
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:drawablePadding="20dp"
+        android:gravity="center|start"
+        android:text="Default"
+        app:drawableStartCompat="@drawable/ic_baseline_view_list_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/view2"
+        app:drawableTint="@color/white_hint" />
+
+</LinearLayout>

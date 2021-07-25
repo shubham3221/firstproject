@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/statusbar_mainactivity"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    tools:context=".entertainment.Fragemnts.movies.sectionheader.Detail_Act.LFragment">
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/adunit"/>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_margin="2dp"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:id="@+id/linknotworking"
+            android:background="@drawable/round_textview_update"
+            android:backgroundTint="#FF5722"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not working?"
+            android:textSize="12dp"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_margin="2dp"
+            android:visibility="gone"
+            android:id="@+id/watchonlinebtn"
+            android:drawableLeft="@drawable/ic_baseline_videocam_24"
+            android:drawableTint="@color/white"
+            android:gravity="center"
+            android:background="@drawable/round_textview_update"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" watch online"
+            android:textSize="12dp"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_margin="2dp"
+            android:visibility="gone"
+            android:id="@+id/downloadbtn"
+            android:drawableLeft="@drawable/ic_baseline_arrow_circle_down_24"
+            android:drawableTint="@color/white"
+            android:gravity="center"
+            android:background="@drawable/round_textview_update"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" direct download"
+            android:textSize="12dp"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ListView
+            android:nestedScrollingEnabled="false"
+            android:id="@+id/gdlv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/colorPrimaryDarker"
+            android:divider="@color/white_dark"
+            android:dividerHeight="1dp" />
+        <include layout="@layout/bottsheet_layout"  />
+        <include layout="@layout/watch_down_bottomsheet"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+</LinearLayout>
+

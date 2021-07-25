@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/frameLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg_color"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/myapp"
+        tools:visibility="gone"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/mscrollView"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="130dp"
+            tools:ignore="HardcodedText"
+            >
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/registerhint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registration"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+            <View
+                android:id="@+id/lineview"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="30sp"
+                android:background="#504E4E"/>
+
+            <EditText
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name_edittext"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="40sp"
+                android:layout_marginEnd="40sp"
+                android:background="@drawable/bubble"
+                android:backgroundTint="@color/browser_actions_bg_grey"
+                android:hint="Name"
+                android:padding="6sp"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:imeOptions="actionNext"
+                android:textSize="15sp"/>
+            <EditText
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/username_editext"
+                android:layout_marginTop="27sp"
+                android:layout_marginStart="40sp"
+                android:layout_marginEnd="40sp"
+                android:layout_marginBottom="17sp"
+                android:background="@drawable/bubble"
+                android:backgroundTint="@color/browser_actions_bg_grey"
+                android:hint="Username"
+                android:padding="6sp"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:imeOptions="actionNext"
+                android:textSize="15sp"/>
+
+
+            <TextView
+                android:id="@+id/noot_welcome_you"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10sp"
+                android:alpha="0"
+                android:text="Buddy Welcomes You."         android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                tools:alpha="1"
+                />
+            <EditText
+                android:layout_marginTop="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:layout_marginStart="40sp"
+                android:layout_marginEnd="40sp"
+                android:background="@drawable/bubble"
+                android:backgroundTint="@color/browser_actions_bg_grey"
+                android:hint="Email"
+                android:padding="6sp"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:imeOptions="actionNext"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="40sp"
+                android:id="@+id/taphere"
+                android:layout_gravity="end"
+                android:textColor="@color/white_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tip: Tap here to add @gmail.com"/>
+            <EditText
+                android:layout_marginTop="10sp"
+                android:singleLine="true"
+                android:hint="Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:maxLines="1"
+                android:padding="6sp"
+                android:layout_marginStart="40sp"
+                android:layout_marginEnd="40sp"
+                android:imeOptions="actionNext"
+                android:background="@drawable/bubble"
+                android:backgroundTint="@color/browser_actions_bg_grey"
+                android:textSize="15sp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="43sp"
+                android:id="@+id/hint_linearLayout"
+                android:layout_marginEnd="43sp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:gravity="start"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/popupWindow_bg_locked_color"
+                    android:id="@+id/status_password"/>
+            </LinearLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="8dp"
+                android:id="@+id/login_btn"
+                android:backgroundTint="#023C04"
+                android:layout_width="200dp"
+                app:cardCornerRadius="8dp"
+                android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:padding="8dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/login_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LOGIN"
+                        android:textSize="15sp"
+                        android:textColor="#FFFFFF"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ProgressBar
+                        android:visibility="gone"
+                        android:id="@+id/login_ok_progressbar"
+                        style="?android:attr/progressBarStyle"
+                        android:indeterminate="true"
+                        android:indeterminateTint="@color/white"
+                        android:indeterminateTintMode="src_atop"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="10dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/login_txt"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="15dp"
+                android:visibility="gone"
+                android:id="@+id/register_ok"
+                android:backgroundTint="#023C04"
+                android:layout_width="200dp"
+                app:cardCornerRadius="8dp"
+                android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:padding="8dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/register_ok_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="REGISTER"
+                        android:textSize="15sp"
+                        android:textColor="#FFFFFF"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ProgressBar
+                        android:visibility="gone"
+                        android:id="@+id/register_ok_progressbar"
+                        style="?android:attr/progressBarStyle"
+                        android:indeterminate="true"
+                        android:indeterminateTint="@color/white"
+                        android:indeterminateTintMode="src_atop"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="10dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/register_ok_txt"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            <View
+                android:layout_marginTop="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="30sp"
+                android:background="#504E4E"/>
+
+            <Button
+                android:id="@+id/register_btn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:scaleX="0"
+                android:backgroundTint="#ff272d33"
+                android:scaleY="0"
+                android:text="Register"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:visibility="gone"
+                android:id="@+id/back_btn_registrationform"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:scaleX="0"
+                android:backgroundTint="#ff272d33"
+                android:scaleY="0"
+                android:text="back"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>
+
+
+
+<!--<ImageView-->
+<!--android:layout_width="100dp"-->
+<!--android:layout_height="100dp"-->
+<!--app:layout_constraintLeft_toLeftOf="parent"-->
+<!--app:layout_constraintRight_toRightOf="parent"-->
+<!--app:layout_constraintTop_toTopOf="parent"-->
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--android:src="@drawable/splash_icon2" />-->

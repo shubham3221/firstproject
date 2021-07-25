@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/cardView2"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="3dp"
+    card_view:cardPreventCornerOverlap="false"
+    app:layout_constraintHeight_max="300dp"
+    android:maxHeight="300dp"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:background="@color/colorPrimaryDarker"
+        android:adjustViewBounds="true"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imgview"/>
+    <TextView
+        android:id="@+id/ratingtxt"
+        android:text="\?"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/textview_corner"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/newText"
+        android:paddingEnd="5dp"
+        android:backgroundTint="@color/yellow"
+        android:background="@drawable/ic_baseline_fiber_new_24"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="top|end" />
+
+    <TextView
+        android:id="@+id/genres"
+        android:layout_width="match_parent"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimaryDarkerTrans"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/white" />
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+

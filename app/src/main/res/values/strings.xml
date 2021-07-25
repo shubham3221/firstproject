@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MBuddy</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="adunit">ca-app-pub-3810794465636482/3850639193</string>
+    <string name="adunit2">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="popupmsg">Want to unlock the Direct Dwonload Link? Click on the UnBlock button</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="default_filedownloader_notification_title">FileDownloader</string>
+
+    <string name="default_filedownloader_notification_content">FileDownloader is running.</string>
+    <string name="tips_not_wifi">wifi not available</string>
+    <string name="tips_not_wifi_cancel" />
+    <string name="tips_not_wifi_confirm">wifi confirm</string>
+    <string name="title_activity_adactivity">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

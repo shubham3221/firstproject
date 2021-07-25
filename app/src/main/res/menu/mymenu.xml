@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:visible="false"
+        android:id="@+id/item1"
+        android:icon="@drawable/sms2"
+        android:iconTint="@color/white"
+        android:title="Chat" />
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item android:title="Tools">
+            <menu>
+                <item
+                    android:id="@+id/item3"
+                    android:icon="@drawable/youtubenn"
+                    android:iconTint="@color/white"
+                    android:title="Youtube To MP3" />
+                <item
+                    android:id="@+id/item4"
+                    android:icon="@drawable/youtube"
+                    android:iconTint="@color/white"
+                    android:title="Youtube Video Dwonloader" />
+                <item
+                    android:id="@+id/item5"
+                    android:icon="@drawable/instagram"
+                    android:iconTint="@color/white"
+                    android:title="Instagram Downloader" />
+
+            </menu>
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item android:title="Extra">
+            <menu>
+                <item
+                    android:id="@+id/item7"
+                    android:icon="@drawable/ic_baseline_image_24"
+                    android:iconTint="@color/white"
+                    android:title="HD Wallpapers" />
+                <item
+                    android:id="@+id/item8"
+                    android:icon="@drawable/searchicon"
+                    android:iconTint="@color/white"
+                    android:title="Image Search" />
+            </menu>
+        </item>
+    </group>
+    <item
+        android:id="@+id/itemhowtodonwload"
+        android:icon="@drawable/ic_baseline_arrow_circle_down_24"
+        android:iconTint="@color/white"
+        android:title="Download Tutorial" />
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/update"
+        android:iconTint="@color/white"
+        android:title="App Update" />
+    <item
+        android:id="@+id/item9"
+        android:icon="@drawable/ic_baseline_support_24"
+        android:iconTint="@color/white"
+        android:title="Support Me" />
+</menu>

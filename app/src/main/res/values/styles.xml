@@ -1,0 +1,157 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:navigationBarColor">@color/colorPrimaryDarker</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="fontFamily">@font/my_font</item>
+        <item name="android:fontFamily">@font/my_font</item>
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightcolor</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarker</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="colorAccent">@color/darkcolor</item>
+<!--        <item name="android:windowAnimationStyle">@style/AppTheme.WindowTransition</item>-->
+
+    </style>
+
+
+    <style name="AppTheme2" parent="Theme.MaterialComponents.Light.NoActionBar">
+<!--    <item name="android:windowBackground">@color/bgaccount_color</item>-->
+    <item name="android:windowBackground">@color/bgaccount_color</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDarker</item>
+        <item name="colorPrimary">@color/lightcolor</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarker</item>
+        <item name="colorAccent">@color/darkcolor</item>
+<!--        <item name="android:windowTranslucentStatus">true</item>-->
+
+<!--        <item name="android:windowTranslucentNavigation">true</item>-->
+
+<!--        <item name="android:windowActionBar">false</item>-->
+<!--        <item name="android:windowFullscreen">true</item>-->
+<!--        <item name="android:windowContentOverlay">@null</item>-->
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+    </style>
+
+
+    <style parent="Theme.AppCompat.Light.Dialog.Alert" name="MyDialogTheme">
+
+    <item name="android:background">#696969</item>
+
+    <item name="windowMinWidthMajor">100%</item>
+
+    <item name="windowMinWidthMinor">65%</item>
+
+</style>
+
+
+    -<style parent="@android:style/Theme.Dialog" name="jz_style_dialog_progress">
+
+    <item name="android:windowBackground">@android:color/transparent</item>
+
+    <item name="android:windowNoTitle">true</item>
+
+<!--    <item name="android:windowAnimationStyle">@style/jz_popup_toast_anim</item>-->
+    <item name="android:windowAnimationStyle">@style/pop_animation2</item>
+
+    <item name="android:backgroundDimEnabled">false</item>
+
+</style>
+
+
+    -<style parent="@android:style/Animation" name="jz_popup_toast_anim">
+
+    <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+
+    <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+
+</style>
+
+
+    -<style name="pop_animation">
+
+    <item name="android:windowEnterAnimation">@anim/pop_from_bottom_anim_in</item>
+
+    <item name="android:windowExitAnimation">@anim/pop_from_bottom_anim_out</item>
+
+</style>-<style name="pop_animation2">
+
+    <item name="android:windowEnterAnimation">@anim/fragment_open_enter</item>
+
+    <item name="android:windowExitAnimation">@anim/fragment_open_exit</item>
+
+</style>
+    <style name="popupMenuStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:itemBackground">@color/colorPrimaryDarker</item>
+    </style>
+
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <!-- Setting window animation -->
+    <style name="AppTheme.WindowTransition">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+
+    <style name="ActionBarThemeOverlay">
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/browser_actions_bg_grey</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">15sp</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style><style name="Toolbar.TitleText_COL_1" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+    <style name="Toolbar.subtitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+    <style name="DialogSlideAnim" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+    <style name="scrollbar_style">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_line_thumb</item>
+    </style>
+
+    <style name="ApBaseDrawerNavigationMenuStyle" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+
+    //imageviewer
+
+    <style parent="android:Theme.Translucent.NoTitleBar" name="ImageViewerDialog"/>
+
+    <style parent="android:Theme.Translucent.NoTitleBar.Fullscreen" name="ImageViewerDialog.NoStatusBar"/>
+
+
+    -<style parent="android:Theme.Translucent.NoTitleBar" name="ImageViewerDialog.Default">
+
+    <item name="android:windowTranslucentStatus">true</item>
+
+    <item name="android:windowTranslucentNavigation">true</item>
+
+</style>
+
+
+</resources>

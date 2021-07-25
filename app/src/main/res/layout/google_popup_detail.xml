@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/round_textview_update"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="2dp"
+        android:drawablePadding="10dp"
+        android:gravity="start|center"
+        android:padding="10dp"
+        android:text="Name: "
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/Grey_400" />
+
+    <TextView
+        android:id="@+id/mime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="2dp"
+        android:drawablePadding="10dp"
+        android:gravity="start|center"
+        android:padding="10dp"
+        android:text="Mime Type: "
+        android:textColor="@color/black" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/Grey_400" />
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="2dp"
+        android:drawablePadding="10dp"
+        android:gravity="start|center"
+        android:padding="10dp"
+        android:text="Modified Time: "
+        android:textColor="@color/black" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/Grey_400" />
+    <TextView
+        android:id="@+id/filesize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="2dp"
+        android:drawablePadding="10dp"
+        android:gravity="start|center"
+        android:padding="10dp"
+        android:text="Size: "
+        android:textColor="@color/black" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/Grey_400" />
+    <TextView
+        android:id="@+id/hasthumnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="2dp"
+        android:drawablePadding="10dp"
+        android:gravity="start|center"
+        android:padding="10dp"
+        android:text="Has Thumbnail: "
+        android:textColor="@color/black" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/Grey_400" />
+    <TextView
+        android:id="@+id/extenstion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="2dp"
+        android:drawablePadding="10dp"
+        android:gravity="start|center"
+        android:padding="10dp"
+        android:text="File Extension: "
+        android:textColor="@color/black" />
+
+</LinearLayout>

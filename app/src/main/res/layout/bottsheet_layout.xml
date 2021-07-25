@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_lfragement"
+    android:backgroundTint="@color/calendar_hour_side_bar_text_dark_color"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:visibility="visible"
+    android:clickable="true"
+    android:focusable="true"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="60dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <TextView
+        android:id="@+id/bottomtext"
+        android:gravity="center"
+        android:padding="8dp"
+        android:backgroundTint="#7E7E7E"
+        android:background="@drawable/round_textview_update"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:text=" Link not working? (Expired,Deleted)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:drawablePadding="5dp"
+        app:drawableStartCompat="@drawable/ic_baseline_link_off_24" />
+
+<TextView
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/reqbtn2"
+    android:text="id: 100"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    android:textAllCaps="true"
+    android:textColor="@color/black"
+    android:background="@drawable/round_textview_update"
+    android:padding="5dp"
+    android:backgroundTint="@color/androidx_core_ripple_material_light"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="#000"
+        android:drawablePadding="16dp"
+        android:text="What You Can Request Here?" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/age_gate_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="16dp"
+        android:text="-New Download Links" />
+    <TextView
+        android:layout_marginStart="8dp"
+        android:textColor="@color/androidx_core_secondary_text_default_material_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Must Submit ID , For New Downlad Link Request)"
+
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/age_gate_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="16dp"
+        android:text="-Any Movie Download Link"
+
+        />
+    <TextView
+        android:layout_marginStart="8dp"
+        android:textColor="@color/androidx_core_secondary_text_default_material_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(If You Want To Request Movie , You Must Give Us IMBd Movie Link For Better Understanding And Faster Proceed Request)"
+
+        />
+
+    <Button
+        android:id="@+id/reqbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#000"
+        android:text="request new links"
+        android:textColor="#fff" />
+
+</LinearLayout>

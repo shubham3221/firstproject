@@ -1,0 +1,76 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/section_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/updatenow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/round_textview_update"
+        android:backgroundTint="@color/colorPrimary"
+        android:padding="3dp"
+        android:text="Update"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/section_show_all_button"
+        app:layout_constraintEnd_toStartOf="@+id/section_show_all_button"
+        app:layout_constraintTop_toTopOf="@+id/section_label" />
+
+
+
+    <TextView
+        android:gravity="center"
+        android:clickable="true"
+        android:id="@+id/section_show_all_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show all"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:textSize="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/section_label"
+        android:focusable="true"
+        android:drawableTint="@color/warn_color"
+        app:drawableEndCompat="@drawable/go_here" />
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastupdate"
+        android:text="last update: ?"
+        android:textColor="@color/white_hint"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/section_label"/>
+
+    <!--  recycler view for items -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:focusableInTouchMode="false"
+        android:id="@+id/item_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lastupdate" />
+</androidx.constraintlayout.widget.ConstraintLayout>

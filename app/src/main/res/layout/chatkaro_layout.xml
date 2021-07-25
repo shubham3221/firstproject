@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chatting.ChatKaro">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/chat_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#2D90DF"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:subtitleTextAppearance="@style/Toolbar.subtitle"
+        app:title="OFFLINE"
+        app:titleTextAppearance="@style/Toolbar.TitleText">
+        <View
+            android:id="@+id/onlineDot"
+            android:visibility="gone"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/roundcorner_offline"/>
+
+        <ProgressBar
+            android:layout_marginStart="20dp"
+            android:id="@+id/toolbar_progress_bar"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/white"
+            android:indeterminateTintMode="src_in"
+            android:indeterminate="true"
+            android:layout_gravity="start"
+            android:visibility="visible"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_below="@id/chat_toolbar"
+        android:layout_height="match_parent"
+        android:id="@+id/chat_recycler"
+        android:layout_above="@id/clout"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/clout"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:visibility="gone"
+            android:id="@+id/sendMsgCardView"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="2dp"
+            android:descendantFocusability="beforeDescendants"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="5dp"
+            >
+
+
+            <EditText
+                android:id="@+id/chat_editxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:hint="Type Messages"
+                android:inputType="text"
+                android:maxLines="5"
+                android:minHeight="40dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/black" />
+
+
+        </androidx.cardview.widget.CardView>
+        <ImageButton
+            android:layout_gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:visibility="gone"
+            android:backgroundTint="@color/lightcolor"
+            android:tint="#2D90DF"
+            android:id="@+id/chat_btn_send"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/bubble"
+            android:src="@drawable/ic_baseline_send_24" />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

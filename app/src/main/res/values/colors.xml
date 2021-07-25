@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Grey_50">#FAFAFA</color>
+
+    <color name="Grey_100">#F5F5F5</color>
+
+    <color name="Grey_200">#EEEEEE</color>
+
+    <color name="Grey_300">#E0E0E0</color>
+
+    <color name="Grey_400">#BDBDBD</color>
+
+    <color name="Grey_500">#9E9E9E</color>
+
+    <color name="Grey_600">#757575</color>
+
+    <color name="Grey_700">#616161</color>
+
+    <color name="Grey_800">#424242</color>
+
+    <color name="Grey_900">#212121</color>
+
+    <color name="colorPrimary">#393939</color>
+    <color name="colorPrimaryDark">#2f2f2f</color>
+    <color name="backgorundFragment">#2b2b2b</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="statusbar_mainactivity">#202020</color>
+    <color name="darkcolor">#1A1A1C</color>
+    <color name="lightcolor">#28282B</color>
+    <color name="mixcolor">#202124</color>
+    <color name="blighcolor">#262626</color>
+    <color name="bgaccount_color">#0e0e0e</color>
+
+    <color name="browser_actions_bg_grey">#FFFFFF</color>
+    <color name="white">#EBFFFFFF</color>
+    <color name="whitefull">#FFFFFF</color>
+    <color name="white_tintcolor">#bcbcbc</color>
+    <color name="white_hint">#bcbcbc</color>
+    <color name="black">#000000</color>
+    <color name="statusbarcolor_premium">#071320</color>
+    <color name="progressbarcolor_orange">#FF9800</color>
+    <color name="unused_color">#FF3D00</color>
+    <color name="popupWindow_bg_unlocked_color">#3A6C3C</color>
+    <color name="popupWindow_bg_locked_color">#AA492A</color>
+
+    <color name="moviedetail_bg">@color/background_floating_material_dark</color>
+    <color name="moviedetail_bg2">@color/colorBackgroundLight</color>
+    <color name="movie_description_color">#0B1725</color>
+    <color name="yellow">#FCD462</color>
+    <color name="text_light_blue">#566f9a</color>
+    <color name="text_bg_blue">#1a242f</color>
+    <color name="main_toolbar_bg_color">#23292E</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="statusbarcolorvideoactivity">#CB062945</color>
+    <color name="bubbleColor">#E8223549</color>
+    <color name="splashcolor">#000000</color>
+    <color name="clickcolor">#000000</color>
+
+
+    <color name="textcolor">#BEBDBF</color>
+    <color name="textcolor2">#BAB7B7</color>
+    <color name="white_dark">#4FFFFFFF</color>
+    <color name="premiumpostcolor">#D7282D30</color>
+    <color name="desc_color">#262626</color>
+
+
+    <array name="swipeRefreshColors">
+        <item>@color/white</item>
+        <item>@color/yellow</item>
+        <item>@color/unused_color</item>
+    </array>
+
+
+    <color name="colorBackgroundLight">#ff2e2e2e</color>
+    <color name="colorBackgroundSlot">#7b0e0e0e</color>
+    <color name="colorBackgroundSlotImportant">#cd000000</color>
+    <color name="colorBackgroundThird">#ff262626</color>
+    <color name="colorBackgroundTrans">#340e0e0e</color>
+    <color name="colorBackgroundTransCenter">#dd0e0e0e</color>
+    <color name="colorBackgroundTransWidget">#aa0e0e0e</color>
+    <color name="colorButtonSeparator">#7b606060</color>
+    <color name="colorInactive">#ffb1b1b1</color>
+    <color name="colorLogoInactive">#ffffffff</color>
+    <color name="colorLogoWaiting">#ffffdec1</color>
+    <color name="colorPrimaryDarker">#ff1a1a1a</color>
+    <color name="colorPrimaryDarkerTrans">#dd1a1a1a</color>
+    <color name="colorPrimaryLight">#ffffffff</color>
+    <color name="colorPrimaryLightTrans">#ddffffff</color>
+    <color name="colorPrimaryTrans">#dd1d1d1d</color>
+    <color name="colorProtectionHigh">#ff00771b</color>
+    <color name="colorProtectionLow">#ffb64401</color>
+    <color name="colorProtectionMedium">#ff34576e</color>
+    <color name="colorProtectionVeryHigh">#ff00df30</color>
+    <color name="colorSecondary">#ff3e3e3e</color>
+    <color name="colorShadow">#ff181818</color>
+    <color name="colorSlotLine">#ff313131</color>
+    <color name="colorText">#ffeaeaea</color>
+    <color name="colorTextDark">#ff1d1d1d</color>
+    <color name="colorTextUnimportant">#ffc0c0c0</color>
+    <color name="colorThumbEnd">#fff5f5f5</color>
+    <color name="colorThumbStart">#fffdfdfd</color>
+    <color name="d">#ff414046</color>
+    <color name="design_bottom_navigation_shadow_color">#14000000</color>
+
+
+    <color name="design_fab_shadow_end_color">@android:color/transparent</color>
+    <color name="design_fab_shadow_mid_color">#14000000</color>
+    <color name="design_fab_shadow_start_color">#44000000</color>
+    <color name="design_fab_stroke_end_inner_color">#0a000000</color>
+    <color name="design_fab_stroke_end_outer_color">#0f000000</color>
+    <color name="design_fab_stroke_top_inner_color">#1affffff</color>
+    <color name="design_fab_stroke_top_outer_color">#2effffff</color>
+    <color name="design_snackbar_background_color">#ff323232</color>
+    <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
+    <color name="dim_foreground_disabled_material_light">#80323232</color>
+    <color name="dim_foreground_material_dark">#ffbebebe</color>
+    <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="error_color_material_dark">#ffff7043</color>
+    <color name="error_color_material_light">#ffff5722</color>
+    <color name="foreground_material_dark">@android:color/white</color>
+    <color name="foreground_material_light">@android:color/black</color>
+    <color name="gradient1_c1">#ff242523</color>
+    <color name="ksw_md_solid_shadow">#2a000000</color>
+    <color name="material_blue_grey_950">#ff21272b</color>
+    <color name="material_grey_600">#ff757575</color>
+    <color name="material_grey_800">#ff424242</color>
+    <color name="material_grey_850">#ff303030</color>
+    <color name="material_grey_900">#ff212121</color>
+    <color name="mtrl_btn_text_color_disabled">#61000000</color>
+    <color name="mtrl_btn_transparent_bg_color">#00ffffff</color>
+    <color name="primary_text_disabled_material_dark">#4dffffff</color>
+    <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="ripple_material_dark">#33ffffff</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_disabled_material_dark">#36ffffff</color>
+    <color name="switch_off">@color/colorTextUnimportant</color>
+    <color name="switch_on">#ff04fc5c</color>
+    <color name="switch_on_master">#b700c945</color>
+    <color name="tooltip_background_dark">#e6616161</color>
+    <color name="tooltip_background_light">#e6ffffff</color>
+    <color name="y">#ff002626</color>
+
+    <color name="fbtoast_white">#FFFFFF</color>
+    <color name="success_color">#ff1949</color>
+    <color name="success_color2">#4CAF50</color>
+    <color name="info_color">#5060BA</color>
+    <color name="warn_color">#FDAF17</color>
+    <color name="error_color">#D92727</color>
+    <color name="jzvd_lock_color">#FF0000</color>
+
+
+    <color name="age_gate_description_color">@color/grey_800</color>
+    <color name="age_gate_title">@color/black</color>
+    <color name="androidx_core_ripple_material_light">#1f000000</color>
+    <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
+    <color name="background_floating_material_dark">@color/material_grey_800</color>
+    <color name="background_material_dark">@color/material_grey_850</color>
+    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+    <color name="bright_foreground_disabled_material_light">#80000000</color>
+    <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light
+    </color>
+    <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark
+    </color>
+    <color name="bright_foreground_material_dark">@android:color/white</color>
+    <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="calendar_action_bar_background_dark_color">#ff393a41</color>
+
+    <color name="calendar_availability_block_background_light_color">#ff393a41</color>
+    <color name="calendar_day_button_background_even_month_dark_color">@color/calendar_panel_dark
+    </color>
+    <color name="calendar_day_button_background_odd_month_dark_color">#ff2d2e36</color>
+    <color name="calendar_day_button_text_today_light_color">@color/calendar_panel_gray</color>
+    <color name="calendar_day_view_background_dark_color">@color/calendar_panel_dark</color>
+    <color name="calendar_day_view_line_dark_color">#ff393a41</color>
+    <color name="calendar_day_view_line_light_color">@color/grey_300</color>
+    <color name="calendar_event_view_frame_dark_color">@color/calendar_panel_dark</color>
+    <color name="calendar_event_view_frame_light_color">@color/white</color>
+    <color name="calendar_event_view_selected_location_text_dark_color">@color/calendar_panel_dark
+    </color>
+    <color name="calendar_event_view_selected_location_text_light_color">@color/white</color>
+    <color name="calendar_event_view_selected_subject_text_dark_color">@color/calendar_panel_dark
+    </color>
+    <color name="calendar_event_view_selected_subject_text_light_color">@color/white</color>
+    <color name="calendar_event_view_unselected_location_text_dark_color">
+        @color/calendar_panel_dark
+    </color>
+    <color name="calendar_event_view_unselected_location_text_light_color">@color/white</color>
+    <color name="calendar_event_view_unselected_subject_text_dark_color">
+        @color/calendar_panel_dark
+    </color>
+    <color name="calendar_event_view_unselected_subject_text_light_color">@color/white</color>
+    <color name="calendar_header_focus_background_dark_color">@color/calendar_panel_dark</color>
+    <color name="calendar_header_focus_background_light_color">@color/calendar_panel_gray</color>
+    <color name="calendar_header_focus_text_dark_color">@color/white</color>
+    <color name="calendar_header_focus_text_light_color">@color/white</color>
+    <color name="calendar_header_normal_text_dark_color">@color/white</color>
+    <color name="calendar_header_normal_text_light_color">@color/grey_600</color>
+    <color name="calendar_hour_side_bar_text_dark_color">@color/white</color>
+    <color name="calendar_hour_side_bar_text_light_color">@color/grey_600</color>
+    <color name="calendar_item_text_font_color">#de000000</color>
+    <color name="calendar_month_view_background_dark_color">@color/calendar_panel_dark</color>
+    <color name="calendar_month_view_background_light_color">@color/white</color>
+    <color name="calendar_month_view_selected_day_dark_color">@color/grey_700</color>
+    <color name="calendar_month_view_selected_day_light_color">@color/calendar_panel_gray</color>
+    <color name="calendar_onboarding_boarder_dark_color">@color/calendar_panel_dark</color>
+    <color name="calendar_onboarding_content_background_color_dark">#ff393a41</color>
+    <color name="calendar_onboarding_content_background_color_light">@color/white</color>
+    <color name="calendar_onboarding_wrapper_background_color_dark">#cc07080a</color>
+    <color name="calendar_onboarding_wrapper_background_color_light">#dc888888</color>
+    <color name="calendar_panel_dark">#ff1c1f27</color>
+    <color name="calendar_panel_divider_dark_color">@color/calendar_panel_gray</color>
+    <color name="calendar_panel_divider_light_color">@color/grey_400</color>
+    <color name="calendar_panel_gray">#ff393a41</color>
+    <color name="calendar_panel_gray_text">@color/grey_500</color>
+    <color name="calendar_panel_header_background_dark_color">@color/calendar_panel_gray</color>
+    <color name="calendar_panel_header_background_light_color">@color/white</color>
+    <color name="calendar_setting_item_selected_text_dark_color">@color/calendar_panel_dark</color>
+    <color name="calendar_setting_item_selected_text_light_color">@color/white</color>
+    <color name="calendar_setting_item_unselected_text_dark_color">@color/calendar_panel_dark
+    </color>
+    <color name="calendar_setting_item_unselected_text_light_color">@color/white</color>
+
+    <color name="clipboard_clip_origin_text_dark">@color/grey_400</color>
+    <color name="clipboard_clip_origin_text_light">@color/grey_600</color>
+    <color name="clipboard_text_field_background">@color/container_background</color>
+    <color name="cloud_dialog_text">@color/grey_900</color>
+    <color name="cloud_not_now_background">#ff066597</color>
+    <color name="cloud_setup_button_background">@color/white</color>
+    <color name="cloud_setup_button_text">@color/black</color>
+    <color name="cloud_setup_microsoft_sign_in_button_background">#ff0078d7</color>
+    <color name="cloud_setup_pages_text">@color/grey_900</color>
+    <color name="cloud_sign_in_button_darken_ripple">#1f000000</color>
+    <color name="cloud_sign_in_grid_text">@color/grey_700</color>
+    <color name="cloud_sign_in_text">@color/grey_700</color>
+    <color name="cloud_sign_in_title">@color/grey_900</color>
+    <color name="cloud_sign_in_top_gradient_color">#ff2e4dbf</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1f000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1f000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#de000000</color>
+    <color name="container_background">#fff1f1f1</color>
+    <color name="container_divider_color">@color/grey_400</color>
+    <color name="container_edit_text_background">@color/grey_200</color>
+    <color name="container_edit_text_border">@color/grey_400</color>
+    <color name="container_edit_text_hint">@color/grey_700</color>
+    <color name="container_text">#ff4a4a4a</color>
+    <color name="container_try_setup_edit_text">@color/grey_700</color>
+    <color name="custom_theme_enabled_done_button_text">@color/black</color>
+    <color name="custom_themes_controls_separator_color">@color/grey_350</color>
+    <color name="custom_themes_dark_background_shadow">#99000000</color>
+    <color name="custom_themes_image_editor_controls_unselected_icon_tint">#ff141414</color>
+    <color name="custom_themes_image_editor_seekbar_text">@color/black</color>
+    <color name="custom_themes_round_edit_button_background_color">#99ffffff</color>
+    <color name="custom_themes_round_edit_button_ripple_color">@color/grey_600</color>
+    <color name="dark_clipboard_pinned">@color/white</color>
+    <color name="dark_fancy_panel_accented_background_color">#ff393a41</color>
+    <color name="dark_fancy_panel_accented_background_stroke">#ff000000</color>
+    <color name="dark_fancy_panel_main_background">#ff1c1f27</color>
+    <color name="dark_quick_settings_card_bg">#ff393a41</color>
+    <color name="dark_quick_settings_card_stroke_bg">@color/black</color>
+    <color name="dark_scrollbar">#ff3c4451</color>
+    <color name="dark_shade_contrasting_color">@color/white</color>
+    <color name="dark_shade_matching_color">@color/black</color>
+    <color name="dark_shade_warm_welcome_bg">@color/grey_800</color>
+
+
+    <color name="disabled_text">@color/disabled_text_light</color>
+    <color name="disabled_text_dark">#ff7c7c7c</color>
+    <color name="disabled_text_light">#ff7c7c7c</color>
+    <color name="divider">@color/divider_light</color>
+    <color name="divider_dark">#ff404040</color>
+    <color name="divider_light">#ffe3e3e3</color>
+    <color name="emoji_highlight_color">#ff28b8ce</color>
+    <color name="emoji_panel_warm_welcome_shadow">#77000000</color>
+    <color name="error_text">#ffe84c4f</color>
+    <color name="emoji_text_color">@color/grey_500</color>
+    <color name="emoji_variant_divider_colour">#407f7f7f</color>
+    <color name="extended_panel_background">@color/white</color>
+    <color name="extended_panel_background_incognito">#ff3a3b42</color>
+    <color name="extended_panel_divider">@color/grey_300</color>
+    <color name="extended_panel_divider_incognito">@color/black</color>
+    <color name="extended_panel_foreground">@color/grey_900</color>
+    <color name="extracted_text_view">@color/grey_100</color>
+    <color name="fancy_panel_grey">@color/grey_500</color>
+    <color name="gif_tile_banner_background">@color/grey_850</color>
+    <color name="gif_tile_banner_text">@color/white</color>
+    <color name="grey_100">#fffafafa</color>
+    <color name="grey_200">#ffececec</color>
+    <color name="grey_300">#ffe0e0e0</color>
+    <color name="grey_350">#ffdddddd</color>
+    <color name="grey_400">#ffc0c0c0</color>
+    <color name="grey_500">#ff9e9e9e</color>
+    <color name="grey_550">#ff848484</color>
+    <color name="grey_600">#ff7a7a7a</color>
+    <color name="grey_700">#ff616161</color>
+    <color name="grey_800">#ff424242</color>
+    <color name="grey_850">#ff333333</color>
+    <color name="grey_900">#ff212121</color>
+    <color name="highlighted_text_material_dark">#6680cbc4</color>
+    <color name="highlighted_text_material_light">#66009688</color>
+    <color name="icon_tint">@color/black</color>
+    <color name="installer_background">@color/secondary_element_light</color>
+    <color name="installer_button_active_text">@color/white</color>
+    <color name="installer_button_active_text_roundel">@color/white</color>
+    <color name="installer_button_inactive_background">@color/grey_200</color>
+    <color name="installer_button_old_inactive_background">@color/grey_300</color>
+    <color name="installer_button_old_inactive_text">@color/container_text</color>
+    <color name="installer_button_old_inactive_text_roundel">@color/container_text</color>
+    <color name="installer_button_touched">#28000000</color>
+    <color name="installer_inactive_text">@color/grey_700</color>
+    <color name="installer_success_background">@color/grey_200</color>
+    <color name="installer_success_title">@color/black</color>
+    <color name="keyboard_text_field_app_grey_out">#4d000000</color>
+    <color name="language_layout_panel_border_dark_color">@color/grey_500</color>
+    <color name="language_layout_panel_border_light_color">@color/grey_400</color>
+    <color name="light_clipboard_pinned">@color/black</color>
+    <color name="light_fancy_panel_accented_background_color">#ffffffff</color>
+    <color name="light_fancy_panel_accented_background_stroke">@color/grey_400</color>
+    <color name="light_fancy_panel_main_background">#ffeceef1</color>
+    <color name="light_quick_settings_card_bg">@color/white</color>
+    <color name="light_quick_settings_card_stroke_bg">@color/grey_400</color>
+    <color name="light_ripple">#1f000000</color>
+    <color name="light_scrollbar">#ffc1cbd9</color>
+    <color name="light_shade_contrasting_color">@color/black</color>
+    <color name="light_shade_matching_color">@color/white</color>
+    <color name="light_shade_warm_welcome_bg">@color/white</color>
+    <color name="location_panel_tile_place_annotation_dark_color">@color/grey_400</color>
+    <color name="location_panel_tile_place_annotation_light_color">@color/grey_600</color>
+    <color name="location_panel_tile_separate_line_dark_color">@color/black</color>
+    <color name="location_panel_tile_separate_line_light_color">@color/grey_300</color>
+    <color name="material_blue_grey_800">#ff37474f</color>
+    <color name="material_blue_grey_900">#ff263238</color>
+
+    <color name="mtrl_scrim_color">#52000000</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#6b000000</color>
+    <color name="mtrl_textinput_disabled_color">#1f000000</color>
+    <color name="mtrl_textinput_filled_box_default_background_color">#0a000000</color>
+    <color name="mtrl_textinput_focused_box_stroke_color">#00000000</color>
+    <color name="mtrl_textinput_hovered_box_stroke_color">#de000000</color>
+    <color name="notification_action_color_filter">
+        @color/androidx_core_secondary_text_default_material_light
+    </color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="overscroll_effect">@color/white</color>
+    <color name="prc_consent_coachmark_bg">#bf000000</color>
+    <color name="preference_fallback_accent_color">#ff008577</color>
+    <color name="primary_background">@color/primary_background_light</color>
+    <color name="primary_background_dark">@color/black</color>
+    <color name="primary_background_light">#fff1f1f1</color>
+    <color name="primary_button_disabled_text_color">@color/white</color>
+    <color name="primary_dark_material_dark">@android:color/black</color>
+    <color name="primary_dark_material_light">@color/material_grey_600</color>
+    <color name="primary_material_dark">@color/material_grey_900</color>
+    <color name="primary_material_light">@color/material_grey_100</color>
+    <color name="primary_text_dark">@color/white</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="primary_text_default_material_light">#de000000</color>
+
+    <color name="rich_content_editor_top_bar_label">@color/grey_600</color>
+    <color name="secondary_button_background_default">#ffe3e3e3</color>
+    <color name="secondary_button_background_disabled">#ffe3e3e3</color>
+    <color name="secondary_button_background_focus">#ffb7b7b7</color>
+    <color name="secondary_button_background_ripple">#ffc8c8c8</color>
+    <color name="secondary_button_text_default_color">@color/black</color>
+    <color name="secondary_button_text_disabled_color">@color/grey_600</color>
+    <color name="secondary_element">@color/secondary_element_light</color>
+    <color name="secondary_element_dark">#ff212121</color>
+    <color name="secondary_element_light">#fff9f9f9</color>
+    <color name="secondary_text">@color/secondary_text_light</color>
+    <color name="secondary_text_dark">#ffb7b7b7</color>
+    <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="secondary_text_light">#ff4a4a4a</color>
+    <color name="settings_ripple">#ffe3e3e3</color>
+
+    <color name="stats_share_divider">#ffd5d5d5</color>
+    <color name="stats_share_summary">#ff222222</color>
+    <color name="stats_share_title">#ff000000</color>
+    <color name="diver_color">#ffe5e5e5</color>
+    <color name="progress_color">#FF9800</color>
+    <color name="progress_color2">#E338FF</color>
+
+
+</resources>

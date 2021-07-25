@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_account"
+    android:clickable="true"
+    tools:context=".Services_item.mytoken.TokenGenerate">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.example.s_tools.tools.Typewriter
+            android:id="@+id/serText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <com.example.s_tools.tools.Typewriter
+            android:id="@+id/clicktocopy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Click to Copy"
+            android:textColor="@color/white_dark"
+            android:textSize="14dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/serBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/premiumpostcolor"
+            android:text="Show"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</FrameLayout>

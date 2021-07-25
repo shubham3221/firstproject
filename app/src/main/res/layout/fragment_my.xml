@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:nestedScrollingEnabled="false"
+    tools:context=".entertainment.Fragemnts.movies.sectionheader.Detail_Act.ScFragment">
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="@color/colorPrimaryDarker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_gravity="center"
+            android:id="@+id/screcy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:background="@drawable/round_textview"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="1dp"
+            android:id="@+id/ddd"
+            android:text="All Screenshots"
+            android:textColor="@color/white"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+</FrameLayout>

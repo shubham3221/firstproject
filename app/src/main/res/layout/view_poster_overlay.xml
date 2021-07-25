@@ -1,0 +1,53 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        app:layout_goneMarginTop="5dp"
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="18dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="6dp"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_cloud_download_24"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:textAllCaps="true"
+        app:layout_goneMarginTop="5dp"
+        android:text="Loading..."
+        android:textColor="@color/white"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:padding="3dp"
+        android:background="#881A1A1A"
+        android:gravity="center"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toStartOf="@+id/download"
+        app:layout_constraintBottom_toBottomOf="@id/download"
+        app:layout_constraintTop_toTopOf="@+id/download"
+        app:srcCompat="@drawable/ic_baseline_image_24"
+        tools:ignore="ContentDescription"/>
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progress"-->
+<!--        style="?android:attr/progressBarStyle"-->
+<!--        android:indeterminateDrawable="@drawable/progress_animation_colored"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        />-->
+
+</merge>
