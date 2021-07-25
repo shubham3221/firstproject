@@ -270,7 +270,6 @@ class ChatKaro : AppCompatActivity() {
         updating()
     }
 
-
     private fun conversationStart(msg: String) {
 //        isThreadPause=true;
         showMsgRecycler(msg)
