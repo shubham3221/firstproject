@@ -205,7 +205,7 @@ class ChatKaro : AppCompatActivity() {
     }
 
     private fun checkThreadMessage() {
-        ChatkaroApi.checkMetaforChatID(this@ChatKaro) { success: Boolean, mchatid: Int ->
+        ChatkaroApi().checkMetaforChatID(this@ChatKaro) { success: Boolean, mchatid: Int ->
             if (success) {
                 if (mchatid == 0) {
                     showSendBtn()
@@ -273,7 +273,7 @@ class ChatKaro : AppCompatActivity() {
     private fun conversationStart(msg: String) {
 //        isThreadPause=true;
         showMsgRecycler(msg)
-        ChatkaroApi.sendMessage(
+        ChatkaroApi().sendMessage(
             this@ChatKaro,
             chatToken,
             msg,
@@ -369,7 +369,7 @@ class ChatKaro : AppCompatActivity() {
                     hideSendBtn()
                     toolbarProgressbar!!.visibility = View.VISIBLE
                     toolbar!!.title = "Troubleshooting..."
-                    ChatkaroApi.troubleShooting(
+                    ChatkaroApi().troubleShooting(
                         this@ChatKaro,
                         MySharedPref.getTokenMessages(this@ChatKaro),
                         MySharedPref.getChatid(this@ChatKaro)

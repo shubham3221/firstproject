@@ -66,7 +66,7 @@ public class ChatkaroApi {
     }
 
     public interface ApiCallbackMessage2 {
-        void onResponse(boolean success, @NonNull List<MessageModel> model, int pos);
+        void onResponse(boolean success, List<MessageModel> model, int pos);
     }
 
     public interface ApiCallbackchatCount {
@@ -145,7 +145,7 @@ public class ChatkaroApi {
         });
     }
     @Synchronized
-    public static void sendMessage(Context context, String token, String message, int chatid, int position,@NonNull ApiCallbackMessage2 apiCallback) {
+    public void sendMessage(Context context, String token, String message, int chatid, int position,@NonNull ApiCallbackMessage2 apiCallback) {
         myWebChat.getThreadMessage("Bearer " + token, 1, message, chatid).enqueue(new Callback<List<MessageModel>>() {
             @Override
             public void onResponse(Call<List<MessageModel>> call, Response<List<MessageModel>> response) {
@@ -165,7 +165,7 @@ public class ChatkaroApi {
         });
     }
 
-    public static void troubleShooting(Context context, String token, int chatid, ApiCallback apiCallback) {
+    public void troubleShooting(Context context, String token, int chatid, ApiCallback apiCallback) {
         myWebChat.isHwtExpired("Bearer " + token, MySharedPref.getSenderID(context)).enqueue(new Callback<JsonArray>() {
             @Override
             public void onResponse(Call<JsonArray> call, Response<JsonArray> response) {
@@ -187,7 +187,7 @@ public class ChatkaroApi {
                         }
                     });
                 } else {
-                    MyWebService myWebService=MyWebService.retrofit.create(MyWebService.class);
+                    MyWebService myWebService=MyWebService.Companion.getRetrofit().create(MyWebService.class);
                     myWebService.deleteMetaUser(MySharedPref.getCookiee(context), "chatid", String.valueOf(chatid)).enqueue(new Callback<JsonObject>() {
                         @Override
                         public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
@@ -340,7 +340,7 @@ public class ChatkaroApi {
             public void onResponse(Call<Object> call, Response<Object> response) {
                 try {
                     if (response.body().toString().contains("bp_rest_authorization_required")) {
-                        MyWebService myWebService=MyWebService.retrofit.create(MyWebService.class);
+                        MyWebService myWebService=MyWebService.Companion.getRetrofit().create(MyWebService.class);
                         myWebService.deleteMetaUser(MySharedPref.getCookiee(context), "chatid", String.valueOf(chatid)).enqueue(new Callback<JsonObject>() {
                             @Override
                             public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
@@ -443,9 +443,9 @@ public class ChatkaroApi {
 //        });
 //    }
 
-    public static void checkMetaforChatID(Context context, ApiCallbackchatid apiCallback) {
-        MyWebService myWebService=MyWebService.retrofit.create(MyWebService.class);
-        myWebService.getUserMeta(MySharedPref.getCookiee(context)).enqueue(new Callback<JsonObject>() {
+    public void checkMetaforChatID(Context context, ApiCallbackchatid apiCallback) {
+        MyWebService myWebService=MyWebService.Companion.getRetrofit().create(MyWebService.class);
+        myWebService.getUserMeta2(MySharedPref.getCookiee(context)).enqueue(new Callback<JsonObject>() {
             @Override
             public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
                 try {
@@ -478,8 +478,8 @@ public class ChatkaroApi {
     }
 
     public static void putchatid_Meta(Context context, int chatid, ApiCallback2 apiCallback) {
-        MyWebService myWebService=MyWebService.retrofit.create(MyWebService.class);
-        myWebService.updateUserMeta(MySharedPref.getCookiee(context), "chatid", String.valueOf(chatid)).enqueue(new Callback<ChangeNameModel>() {
+        MyWebService myWebService=MyWebService.Companion.getRetrofit().create(MyWebService.class);
+        myWebService.updateUserMeta3(MySharedPref.getCookiee(context), "chatid", String.valueOf(chatid)).enqueue(new Callback<ChangeNameModel>() {
             @Override
             public void onResponse(Call<ChangeNameModel> call, Response<ChangeNameModel> response) {
                 try {

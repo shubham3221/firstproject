@@ -30,12 +30,6 @@ import java.io.File;
 import java.util.List;
 
 
-interface Clicklistner {
-    void cancelitemClicked(int pos);
-
-    void pauseitemClicked(int pos);
-}
-
 class TestingAdapter extends RecyclerView.Adapter<TestingAdapter.MyViewHolder> {
     Context context;
     List<Downloadmodel> list;
